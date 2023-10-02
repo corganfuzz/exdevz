@@ -4,10 +4,9 @@ metadata:
   name: exdevz
   description: An example of a Backstage application.
   # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
+  annotations:
+    dev.azure.com/project-repo: deloittedigitalstudios/apiops
 spec:
-  type: website
+  type: service
   owner: john@example.com
   lifecycle: experimental
